@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Compila il form in maniera corretta per inviarci una segnalazione sulla presenza di rifiuti
+        per strada o situazioni che, secondo lei, prevedono il nostro intervento di pulizia.
+        Le segnalazioni sono anonime"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:hint="Inserisci la via"
+            android:id="@+id/via"
+            android:layout_marginTop="20dp">
+
+        </EditText>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="text"
+            android:id="@+id/descrizione"
+            android:hint="Descrizione della segnalazione "></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Effettuare una foto  tramite il cellulare per completare la segnalazione"></TextView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <FrameLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"></FrameLayout>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_menu_camera"
+                android:id="@+id/foto"
+                android:layout_marginRight="20dp"></ImageView>
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"></FrameLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Invia Segnalazione"
+            android:layout_gravity="center"
+            android:id="@+id/button"></Button>
+    </LinearLayout>
+</FrameLayout>

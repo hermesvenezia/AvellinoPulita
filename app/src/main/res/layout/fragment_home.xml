@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com.example.hermes.avellinopulita.fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logobig"></ImageView>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:textSize="15dp"
+         android:gravity="center"
+         android:layout_marginRight="5dp"
+         android:layout_marginLeft="5dp"
+         android:text="Avellino Pulita permette di rimanere sempre aggiornati sulla raccolta differenziata che si tiene nella nostra città.
+                       Permette l'invio di segnalazioni su situazioni che, secondo lei, richiedono il nostro interevento o vi permettono
+                        di creare una richiesta di raccolta di un rifiuto speciale, o ingombrante, direttamente dall'app.
+                    Infine l'applicazione mette a disposizione uno scanner di codici a barre per avere sempre un consiglio su come smaltire un determinato cibo"></TextView>
+    </LinearLayout>
+
+
+</FrameLayout>

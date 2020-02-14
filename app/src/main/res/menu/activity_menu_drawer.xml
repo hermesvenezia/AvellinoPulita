@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cosa_butto_oggi"
+            android:icon="@drawable/ic_delete_sweep_black_24dp"
+            android:title="Cosa butto oggi?" />
+        <item
+            android:id="@+id/nav_giorni_della_differenziata"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="La Differenziata" />
+        <item
+            android:id="@+id/nav_dove_lo_butto"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dove lo butto?" />
+        <item
+            android:id="@+id/nav_smaltimento_rifiuto_speciale"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Smaltimento rifiuto speciale" />
+        <item
+            android:id="@+id/nav_segnalazioni"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Segnalazioni" />
+    </group>
+
+
+</menu>

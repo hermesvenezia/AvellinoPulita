@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarCodeDetectorActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:id="@+id/text_codice"
+                android:hint="Inserisci manualmente il codice" >
+            </EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Invia"
+                android:id="@+id/button_invia"></Button>
+        </LinearLayout>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/barcode"
+            android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCapture"
+            app:gvb_auto_focus= "true"
+            app:gvb_code_format = "all_format"
+            app:gvb_flash="false"
+            app:gvb_draw="true"></fragment>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Title"
+    android:textSize="50dp"
+    android:id="@+id/title">
+    </TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/multimateriale"
+        android:layout_gravity="center"
+        android:id="@+id/iconMateriale"></ImageView>
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cosa Inserire "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#00b51e"> </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Scarti di cucina, avanzi di cibo e frutta, avanzi di crostacei e molluschi, gusci di uova
+    e frutta secca, piccoli ossi, alimenti avariati, fondi di caffè e cialde non plastificate, filtri di tè,
+    tovaglioli di carta unti, ceneri spente, piccole potature di fiori, piante, sfalci d'erba, foglie.  "
+        android:id="@+id/cosaInserire"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="Cosa Non Inserire "
+        android:textStyle="bold"
+        android:textColor="#ff2f00"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lampadine e lampade, lastre di vetro, oggetti in cristallo, oggetti in ceramica
+     porcellana, terracotta"
+        android:id="@+id/cosaNonInserire"></TextView>
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giorni di Raccolta settimanale: "></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunedì, Venerdì"
+            android:textSize="20dp"
+            android:id="@+id/giorni"></TextView>
+    </LinearLayout>
+</LinearLayout>
